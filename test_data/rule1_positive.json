@@ -1,0 +1,23 @@
+[{
+  "TenantId":"54b708be-a187-41a9-bb08-c8f8d95d5e2f",
+  "SourceSystem":"OpsManager",
+  "TimeGenerated":"2025-02-24T14:30:15.4821033Z",
+  "Source":"Microsoft-Windows-Sysmon",
+  "EventLog":"Microsoft-Windows-Sysmon/Operational",
+  "Computer":"dc1-mon",
+  "EventLevel":4,
+  "EventLevelName":"Information",
+  "ParameterXml":"<Param>-</Param><Param>2025-02-24 14:30:15.480</Param><Param>{3d7a6f6f-820a-67bc-9b01-000000000400}</Param><Param>2456</Param><Param>C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Param><Param>10.0.19041.1</Param><Param>Windows PowerShell</Param><Param>Microsoft Windows</Param><Param>Microsoft Corporation</Param><Param>POWERSHELL.EXE</Param><Param>powershell.exe -enc JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0AA==</Param><Param>C:\\Windows\\system32\\</Param><Param>PURPLECLOUD\\Administrator</Param><Param>{3d7a6f6f-804b-67bc-e703-000000000000}</Param><Param>0x54321</Param><Param>1</Param><Param>High</Param><Param>MD5=A1B2C3D4E5F6071829A4B5C6D7E8F901,SHA256=B2C3D4E5F6071829A4B5C6D7E8F9012A3B4C5D6E7F8091A2B3C4D5E6F7089123,IMPHASH=C3D4E5F6071829A4B5C6D7E8F9012A3B</Param><Param>{3d7a6f6f-813e-67bc-9a01-000000000300}</Param><Param>1128</Param><Param>C:\\Windows\\System32\\cmd.exe</Param><Param>cmd.exe /c powershell.exe -enc JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0AA==</Param><Param>PURPLECLOUD\\Administrator</Param>",
+  "EventData":"<DataItem Type=\"System.XmlData\" time=\"2025-02-24T14:30:15.482103300Z\" sourceHealthServiceId=\"1f1a93bd-0db8-40a2-87fb-7c7c5393226e\"><EventData xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2025-02-24 14:30:15.480</Data><Data Name=\"ProcessGuid\">{3d7a6f6f-820a-67bc-9b01-000000000400}</Data><Data Name=\"ProcessId\">2456</Data><Data Name=\"Image\">C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Data><Data Name=\"FileVersion\">10.0.19041.1</Data><Data Name=\"Description\">Windows PowerShell</Data><Data Name=\"Product\">Microsoft Windows</Data><Data Name=\"Company\">Microsoft Corporation</Data><Data Name=\"OriginalFileName\">POWERSHELL.EXE</Data><Data Name=\"CommandLine\">powershell.exe -enc JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0AA==</Data><Data Name=\"CurrentDirectory\">C:\\Windows\\system32\\</Data><Data Name=\"User\">PURPLECLOUD\\Administrator</Data><Data Name=\"LogonGuid\">{3d7a6f6f-804b-67bc-e703-000000000000}</Data><Data Name=\"LogonId\">0x54321</Data><Data Name=\"TerminalSessionId\">1</Data><Data Name=\"IntegrityLevel\">High</Data><Data Name=\"Hashes\">MD5=A1B2C3D4E5F6071829A4B5C6D7E8F901,SHA256=B2C3D4E5F6071829A4B5C6D7E8F9012A3B4C5D6E7F8091A2B3C4D5E6F7089123,IMPHASH=C3D4E5F6071829A4B5C6D7E8F9012A3B</Data><Data Name=\"ParentProcessGuid\">{3d7a6f6f-813e-67bc-9a01-000000000300}</Data><Data Name=\"ParentProcessId\">1128</Data><Data Name=\"ParentImage\">C:\\Windows\\System32\\cmd.exe</Data><Data Name=\"ParentCommandLine\">cmd.exe /c powershell.exe -enc JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0AA==</Data><Data Name=\"ParentUser\">PURPLECLOUD\\Administrator</Data></EventData></DataItem>",
+  "EventID":1,
+  "RenderedDescription":"Process Create: RuleName: - UtcTime: 2025-02-24 14:30:15.480 ProcessGuid: {3d7a6f6f-820a-67bc-9b01-000000000400} ProcessId: 2456 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.19041.1 Description: Windows PowerShell Product: Microsoft Windows Company: Microsoft Corporation OriginalFileName: POWERSHELL.EXE CommandLine: powershell.exe -enc JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0AA== CurrentDirectory: C:\\Windows\\system32\\ User: PURPLECLOUD\\Administrator LogonGuid: {3d7a6f6f-804b-67bc-e703-000000000000} LogonId: 0x54321 TerminalSessionId: 1 IntegrityLevel: High Hashes: MD5=A1B2C3D4E5F6071829A4B5C6D7E8F901,SHA256=B2C3D4E5F6071829A4B5C6D7E8F9012A3B4C5D6E7F8091A2B3C4D5E6F7089123,IMPHASH=C3D4E5F6071829A4B5C6D7E8F9012A3B ParentProcessGuid: {3d7a6f6f-813e-67bc-9a01-000000000300} ParentProcessId: 1128 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: cmd.exe /c powershell.exe -enc JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0AA== ParentUser: PURPLECLOUD\\Administrator",
+  "AzureDeploymentID":"",
+  "Role":"",
+  "EventCategory":1,
+  "UserName":"S-1-5-21-123456789-123456789-123456789-500",
+  "Message":"",
+  "MG":"00000000-0000-0000-0000-000000000001",
+  "ManagementGroupName":"AOI-54b708be-a187-41a9-bb08-c8f8d95d5e2f",
+  "Type":"Event",
+  "_ResourceId":"/subscriptions/562db19c-f304-45df-8cc6-e93f7daed8cb/resourcegroups/purplecloud-00o69/providers/microsoft.compute/virtualmachines/dc1"
+}]
